@@ -6,7 +6,7 @@
   <title>Partner One &amp; Partner Two — Our Wedding</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;1,300;1,400&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Lato:wght@300;400&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -14,97 +14,118 @@
   <!-- NAV -->
   <nav>
     <ul>
-      <li><a href="#hero">Home</a></li>
-      <li><a href="#details">Details</a></li>
-      <li><a href="#photos">Photos</a></li>
-      <li><a href="#rsvp">RSVP</a></li>
+      <li><a href="#hero">Úvod</a></li>
+      <li><a href="#details">Informace</a></li>
+      <li><a href="#photos">Fotky</a></li>
+      <li><a href="#rsvp">Dotazník</a></li>
     </ul>
   </nav>
 
   <!-- HERO -->
   <section id="hero">
     <div class="hero-overlay">
-      <p class="eyebrow">We're getting married</p>
-      <h1>Partner One<br /><span class="ampersand">&amp;</span><br />Partner Two</h1>
-      <p class="wedding-date">Saturday, October 18, 2025</p>
-      <p class="wedding-venue">The Grand Venue — City, State</p>
+      <p class="eyebrow">Budeme se brát</p>
+      <h1>Vojtěch Smutný<br /><span class="ampersand">&amp;</span><br />Kateřina Košuličová</h1>
+      <p class="wedding-date">Sobota, Červenec 25, 2026</p>
+      <p class="wedding-venue">Doubravník, Česká republika</p>
 
       <!-- COUNTDOWN -->
       <div id="countdown">
-        <div class="count-unit"><span id="days">--</span><label>Days</label></div>
-        <div class="count-unit"><span id="hours">--</span><label>Hours</label></div>
-        <div class="count-unit"><span id="minutes">--</span><label>Minutes</label></div>
-        <div class="count-unit"><span id="seconds">--</span><label>Seconds</label></div>
+        <div class="count-unit"><span id="days">--</span><label>Dní</label></div>
+        <div class="count-unit"><span id="hours">--</span><label>Hodin</label></div>
+        <div class="count-unit"><span id="minutes">--</span><label>Minut</label></div>
+        <div class="count-unit"><span id="seconds">--</span><label>Sekund</label></div>
       </div>
 
-      <a href="#rsvp" class="btn">RSVP Now</a>
+      <a href="#rsvp" class="btn">Dotazník</a>
     </div>
   </section>
 
   <!-- DETAILS -->
   <section id="details">
-    <h2>Wedding Details</h2>
+    <h2>Detail Svatby</h2>
+    <p class="section-sub">Pouze pro pozvané hosty</p>
     <div class="details-grid">
       <div class="detail-card">
         <span class="icon">&#128337;</span>
-        <h3>Ceremony</h3>
-        <p>4:00 PM</p>
-        <p>The Grand Chapel</p>
-        <p>123 Maple Street, City, ST 00000</p>
-      </div>
-      <div class="detail-card">
-        <span class="icon">&#127870;</span>
-        <h3>Reception</h3>
-        <p>6:00 PM – Midnight</p>
-        <p>The Grand Ballroom</p>
-        <p>123 Maple Street, City, ST 00000</p>
+        <h3>Obřad</h3>
+        <p>11:00</p>
+        <p>Kostel Povýšení svatého Kříže</p>
+        <p>38715, 592 61 Doubravník</p>
       </div>
       <div class="detail-card">
         <span class="icon">&#127968;</span>
-        <h3>Accommodations</h3>
-        <p>Hotel Name</p>
-        <p>Group rate available</p>
-        <p><a href="#">Book your room</a></p>
+        <h3>Oběd</h3>
+        <p>13:00</p>
+        <p>Jídelna MŠ</p>
+        <p>Pouze pro zvané</p>
+        <p>Doubravník 9, 592 61 Doubravník</p>
+      </div>
+      <div class="detail-card">
+        <span class="icon">&#127870;</span>
+        <h3>Zahradní párty</h3>
+        <p>16:00</p>
+        <p>Zahrada MŠ</p>
+        <p>Pouze pro zvané</p>
+        <p>Doubravník 9, 592 61 Doubravník</p>
+      </div>
+      <div class="detail-card">
+        <span class="icon">&#127968;</span>
+        <h3>Ubytování</h3>
+        <p>Prostory MŠ</p>
+        <p>Nutno přinést vlastní karimatku a spacák</p>
+        <p>Doubravník 9, 592 61 Doubravník</p>
       </div>
       <div class="detail-card">
         <span class="icon">&#127885;</span>
         <h3>Dress Code</h3>
-        <p>Cocktail Attire</p>
+        <p>TODO</p>
         <p>Colours: blush &amp; sage</p>
+        <p>Na obřad ve vhodném oblečení</p>
+        <p:>Garden Party styl</p>
+      </div>
+      <div class="detail-card">
+        <span class="icon">&#127885;</span>
+        <h3>Dress Code</h3>
+        <p>TODO</p>
+        <p>Colours: blush &amp; sage</p>
+        <p>Na obřad ve vhodném oblečení</p>
+        <p:>Garden Party styl</p>
       </div>
     </div>
   </section>
 
-  <!-- PHOTOS
-       iCloud Shared Album setup:
-         1. iPhone/Mac Photos app → select album → Share → iCloud Link
-         2. Copy the https://www.icloud.com/photos/... URL
-         3. Paste it into the iframe src AND the "View full album" href below
-  -->
+  <!-- PHOTOS -->
   <section id="photos">
-    <h2>Our Story</h2>
-    <p class="section-sub">A few moments we love</p>
+    <h2>Náš příběh</h2>
+    <p class="section-sub">Momenty naší lásky</p>
 
-    <div class="album-embed">
-      <iframe
-        src="YOUR_ICLOUD_SHARED_ALBUM_URL"
-        width="100%"
-        height="620"
-        frameborder="0"
-        allowfullscreen
-        title="Wedding Photo Album"
-      ></iframe>
+    <div class="photo-grid">
+      <div class="photo-item"><img src="photos/album1.JPG" alt="Wedding photo 1" loading="lazy" /></div>
+      <div class="photo-item"><img src="photos/album2.JPG" alt="Wedding photo 2" loading="lazy" /></div>
+      <div class="photo-item"><img src="photos/album3.JPG" alt="Wedding photo 3" loading="lazy" /></div>
+      <div class="photo-item"><img src="photos/album4.JPG" alt="Wedding photo 4" loading="lazy" /></div>
+      <div class="photo-item"><img src="photos/album5.JPG" alt="Wedding photo 5" loading="lazy" /></div>
+      <div class="photo-item"><img src="photos/album6.JPG" alt="Wedding photo 6" loading="lazy" /></div>
+      <div class="photo-item"><img src="photos/album7.JPG" alt="Wedding photo 7" loading="lazy" /></div>
+      <div class="photo-item"><img src="photos/album8.JPG" alt="Wedding photo 8" loading="lazy" /></div>
+      <div class="photo-item"><img src="photos/album9.JPG" alt="Wedding photo 9" loading="lazy" /></div>
+      <div class="photo-item"><img src="photos/album10.JPG" alt="Wedding photo 10" loading="lazy" /></div>
     </div>
 
-    <p class="album-link">
-      <a href="YOUR_ICLOUD_SHARED_ALBUM_URL" target="_blank" rel="noopener">Open full album &rarr;</a>
-    </p>
-  </section>
+    <!-- Lightbox -->
+    <div id="lightbox" aria-hidden="true">
+      <button id="lb-close" aria-label="Close">&times;</button>
+      <button id="lb-prev" aria-label="Previous">&#8249;</button>
+      <img id="lb-img" src="" alt="" />
+      <button id="lb-next" aria-label="Next">&#8250;</button>
+    </div>
+  </section>;
 
   <!-- RSVP -->
   <section id="rsvp">
-    <h2>RSVP</h2>
-    <p class="section-sub">Kindly respond by September 1, 2025</p>
+    <h2>Dotazník</h2>
+    <p class="section-sub">Prosím o vyplnění do TODO</p>
     <div class="form-wrapper">
       <!--
         Replace the src below with your Google Form embed URL.
@@ -124,8 +145,8 @@
 
   <!-- FOOTER -->
   <footer>
-    <p>Partner One &amp; Partner Two &nbsp;·&nbsp; October 18, 2025</p>
-    <p class="footer-sub">Made with love</p>
+    <p>Vojtěch Smutný &amp; Kateřina Košuličová &nbsp;·&nbsp; Červenec 25, 2026</p>
+    <p class="footer-sub">Vytvořeno s Láskou</p>
   </footer>
 
   <script src="script.js"></script>
