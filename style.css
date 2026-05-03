@@ -15,7 +15,7 @@ html {
   --charcoal:#2e2a22;
   --gold:    #7a5c38;
   --white:   #fdf8f2;
-  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-serif: 'Lora', Georgia, serif;
   --font-sans:  'Lato', system-ui, sans-serif;
   --fw-serif-display: 400;  /* hero h1, large headings */
   --fw-serif-heading:  400;  /* section h2, card h3    */
