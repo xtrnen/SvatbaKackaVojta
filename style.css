@@ -8,8 +8,8 @@
   --charcoal:#2e2a22;
   --gold:    #7a5c38;
   --white:   #fdf8f2;
-  --font-serif: 'Playfair Display', Georgia, serif;
-  --font-sans:  'Lato', system-ui, sans-serif;
+  --font-serif: 'Playfair Display', serif;
+  --font-sans:  'Lato', sans-serif;
 }
 
 html { scroll-behavior: smooth; }
