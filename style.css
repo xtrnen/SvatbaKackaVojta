@@ -18,7 +18,7 @@ body {
   font-family: var(--font-sans);
   color: var(--charcoal);
   background: var(--cream);
-  font-weight: 300;
+  font-weight: 400;
   line-height: 1.6;
   /* Přidej toto pro lepší vykreslování na mobilech */
   -webkit-font-smoothing: antialiased;
