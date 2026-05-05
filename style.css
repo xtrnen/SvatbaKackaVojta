@@ -20,6 +20,9 @@ body {
   background: var(--cream);
   font-weight: 300;
   line-height: 1.6;
+  /* Přidej toto pro lepší vykreslování na mobilech */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a { color: var(--sage); text-decoration: none; }
