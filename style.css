@@ -207,6 +207,33 @@ nav a:hover { color: var(--gold); text-decoration: none; }
 
 .detail-card p { font-size: 0.9rem; line-height: 1.8; }
 
+.color-list {
+  list-style: none;
+  margin-bottom: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.color-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.swatch {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  border: 1px solid rgba(0,0,0,0.12);
+  flex-shrink: 0;
+}
+
 /* ── Photos ── */
 #photos {
   padding: 6rem 2rem;
