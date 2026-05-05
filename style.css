@@ -9,7 +9,7 @@
   --gold:    #7a5c38;
   --white:   #fdf8f2;
   --font-serif: 'Playfair Display', serif;
-  --font-sans:  'Lato', sans-serif;
+  --font-sans: Arial, sans-serif;
 }
 
 html { scroll-behavior: smooth; }
