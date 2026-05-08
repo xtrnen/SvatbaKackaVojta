@@ -167,6 +167,33 @@ nav a:hover { color: var(--gold); text-decoration: none; }
   text-decoration: none;
 }
 
+/* ── Intro ── */
+#intro {
+  padding: 5rem 2rem;
+  background: var(--cream);
+  text-align: center;
+}
+
+.intro-content {
+  max-width: 720px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.intro-content p {
+  font-size: 1.05rem;
+  line-height: 1.85;
+  color: var(--charcoal);
+}
+
+.intro-content p:first-child {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.35rem;
+  color: var(--gold);
+}
+
 /* ── Details ── */
 #details {
   padding: 6rem 2rem;
